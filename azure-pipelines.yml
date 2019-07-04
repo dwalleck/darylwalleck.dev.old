@@ -11,15 +11,14 @@ variables:
 steps:
 - script: |
    wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb   
-  displayName: "Download HUGO"
+  displayName: "Download Hugo"
 
 - script: 'sudo dpkg -i hugo_$(hugo.version)_Linux-64bit.deb'
   displayName: "Install Hugo"
 
 - script:
-   ls -la |
-   cd $(blog.path) |
-   hugo --log -v
+    cd $(blog.path) |
+    hugo --log -v
   displayName: 'Generate Blog'
 
 - task: CopyFiles@2
