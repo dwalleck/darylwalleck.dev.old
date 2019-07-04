@@ -10,6 +10,9 @@ variables:
   system.debug: true
 
 steps:
+- checkout: self
+  submodules: 'true'
+
 - script: |
    wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb   
   displayName: "Download Hugo"
@@ -18,14 +21,13 @@ steps:
   displayName: "Install Hugo"
 
 - script:
-    cd $(blog.path) |
     hugo --log -v
   displayName: 'Generate Blog'
 
 - task: CopyFiles@2
   displayName: 'Copy Blog'
   inputs:
-    SourceFolder: '$(blog.path)/public'
+    SourceFolder: './public'
     Contents: "**"
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
