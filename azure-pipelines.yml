@@ -16,7 +16,8 @@ steps:
 - script: 'sudo dpkg -i hugo_$(hugo.version)_Linux-64bit.deb'
   displayName: "Install Hugo"
 
-- script: |
+- script:
+   ls -la |
    cd $(blog.path)
    hugo --log -v
   displayName: 'Generate Blog'
