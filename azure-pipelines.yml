@@ -24,13 +24,13 @@ steps:
 - task: CopyFiles@2
   displayName: 'Copy Blog'
   inputs:
-    SourceFolder: '$ (blog.path) / public'
+    SourceFolder: '$(blog.path)/public'
     Contents: "**"
-    TargetFolder: '$ (Build.ArtifactStagingDirectory)'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
   displayName: Publish Blog
   inputs:
-    PathtoPublish: '$ (Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: Drop
     publishLocation: 'Container'
