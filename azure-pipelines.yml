@@ -18,7 +18,7 @@ steps:
 
 - script:
    ls -la |
-   cd $(blog.path)
+   cd $(blog.path) |
    hugo --log -v
   displayName: 'Generate Blog'
 
