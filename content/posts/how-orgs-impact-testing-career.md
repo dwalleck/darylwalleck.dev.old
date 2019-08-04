@@ -155,6 +155,17 @@ career and is something that is likely not to be resolved is a lesson that I
 wish I could have learned in a less painful way, but now it's certainly a lesson
 I won't forget.
 
+## What should I want from my leader
+
+- Genuinely interested in me and my career growth
+- Sets goals that stretch your current knowledge and comfort
+- Will give you honest but constructive feedback
+- Listens, understands, and acts on your concerns when possible
+- Acts in your best interest over theirs
+- Leaves you the room and grace to fail when necessary
+- Can articulate your accomplishments in clear and meanful ways to their peers
+  and leadership
+
 ## Benefits of reporting to a test leader
 
 Their focus is solely on testing. They may have a greater pool of knowledge
