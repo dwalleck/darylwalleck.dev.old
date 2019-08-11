@@ -162,7 +162,8 @@ I won't forget.
 - Will give you honest but constructive feedback
 - Listens, understands, and acts on your concerns when possible
 - Acts in your best interest over theirs
-- Leaves you the room and grace to fail when necessary
+- Leaves you ability to fail when necessary and the grace to correct your
+  mistakes
 - Can articulate your accomplishments in clear and meanful ways to their peers
   and leadership
 
@@ -238,3 +239,28 @@ bringing to the team. It can be uncomfortable to work against those statements
 of value towards what you see as your real career goals. Everyone wants to be
 consider valuable, and to give that up to be something else can be a difficult
 mental hurdle.
+
+What other aspects of a company can impact your growth as a tester?
+
+- Type and complexity of applications being tested
+- Value of testing with in the organization
+- Biases/pre-judgements about the skills/skillset of testers
+- If your growth goals align with the opportunities provided by the company
+
+An individual's desire to learn and grow is certainly one of the most
+influential aspects of their career growth. However, it's hard to ignore the
+benefit of having a leader or other advocate who can articulate your value to
+their leadership. Their influence can be the key that unlocks the door to a
+person's next step: a promotion, taking the lead on the big hot project, or
+giving you the opportunity to present to their leaders as an opportunity for
+visibility.
+
+It's also just as important to have the ability to determine if the current
+work environment is the right place to expend the majority of your energy for
+growth. While it can feel good to challenge the status quo, it's not always a
+battle that can be won or is worth fighting. Spending the majority of your
+energy trying to prove your value to others is only worth it if the other party
+is willing to listen. We vote with our feet when it comes to employment. Finding
+an employer who values your contributions upfront is much easier than spending
+countless months or years trying to prove a point to an audience that may not
+be willing to change their mind. 
